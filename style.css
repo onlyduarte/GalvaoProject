@@ -4,7 +4,6 @@
 }
 body {
   background: white;
-
 }
 /* inicio da navbar */
 nav {
@@ -261,12 +260,12 @@ i {
   color: #a52a2a;
   gap: 30px;
 }
-.sobre .galvao{
+.sobre .galvao {
   font-weight: bold;
 }
-.blog a{
+.blog a {
   font-size: 20px;
-  color: #31404A;
+  color: #31404a;
   text-decoration: none;
 }
 /* Fim footer */

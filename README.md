@@ -3,3 +3,7 @@ em caso de qualquer incomodo com o uso das imagens ou cópia do site em questão
 via email georgelduarte11@gmail.com para que eu apague o mesmo, não estou buscando problemas com os donos do site, apenas buscando praticar e
 demonstrar para.
 
+Link para visualização Web do projeto upado 
+
+https://onlyduarte.github.io/GalvaoProject/
+
