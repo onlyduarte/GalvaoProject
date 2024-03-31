@@ -1,0 +1,271 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background: white;
+
+}
+/* inicio da navbar */
+nav {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+nav .nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+  position: fixed;
+  background-color: white;
+  padding: 15px;
+}
+nav .links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+nav .links a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  color: gray;
+  font-size: 20px;
+  width: 100%;
+  height: 100%;
+}
+nav button {
+  display: flex;
+  width: 100px;
+  height: 32px;
+  background-color: #5a6268;
+  color: white;
+  border-radius: 5px;
+  border: none;
+  transition: 1s;
+}
+nav button a {
+  color: white !important;
+  font-size: 14px !important;
+}
+nav button:hover {
+  transform: scale(1.1);
+}
+
+nav .btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* nav .nav {
+  margin-top: 15px;
+} */
+/* fim da navbar */
+
+/* inicio da primeira sessão */
+.section1 {
+  display: flex;
+  width: 100%;
+  margin-top: 50px;
+  margin-bottom: 60px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.advtitle {
+  display: flex;
+  flex-direction: column;
+  /* width: 65%; */
+  justify-content: center;
+  align-items: center;
+  /* padding-left: 60px; */
+}
+.advtitle h1 {
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #2f4f4f;
+}
+.advtitle h3 {
+  position: relative;
+  font-size: 25px;
+  font-weight: 100;
+  margin-bottom: 50px;
+  color: #2f4f4f;
+}
+.advimg {
+  display: flex;
+  /* width: 35%; */
+  justify-content: start;
+  align-items: center;
+  margin-bottom: 50px;
+}
+.advtitle button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 50px;
+  color: white;
+  background: #2f4f4f;
+  border-radius: 5px;
+  font-size: 20px;
+  transition: 1s;
+  border: none;
+  margin-bottom: 50px;
+}
+.advtitle a {
+  color: white;
+  text-decoration: none;
+}
+.advtitle button:hover {
+  transform: scale(1.025);
+}
+/* fim da primeira sessão */
+
+/* Inicio da sessão 2 */
+.section2 {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  flex-direction: row;
+  gap: 100px;
+}
+.section2 h3 {
+  display: flex;
+  font-size: 20px;
+  margin-bottom: 20px;
+  justify-content: center;
+  font-weight: 800;
+  color: #2f4f4f;
+}
+.card1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-left: 25px;
+  gap: 15px;
+  width: 420px;
+  height: 50px;
+  background: #2f4f4f;
+  border-bottom: 1.5px solid white;
+  transition: 1s;
+}
+.card1 a {
+  color: white;
+  text-decoration: none;
+  font-weight: 100;
+  font-size: 13px;
+}
+.card1:hover {
+  transform: scale(1.025);
+}
+/* Fim da sessão 2 */
+
+/* Fim da sessão 3 */
+.section3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 50px;
+}
+.section3 h1 {
+  margin-top: 70px;
+  margin-bottom: 50px;
+  color: #a52a2a;
+  border-bottom: 1.5px solid gray;
+  padding-bottom: 10px;
+  width: 50%;
+  text-align: center;
+}
+.ferramentas {
+  display: flex;
+  gap: 400px;
+}
+.legislacao,
+.atvEsp {
+  margin-bottom: 30px;
+}
+.legislacao,
+.jurisprudencia,
+.atvEsp,
+.tabelas {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  font-size: 20px;
+}
+.section3 a {
+  color: black;
+  text-decoration: none;
+}
+/* Fim da sessão 3 */
+
+/* Inicio Footer */
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  flex-direction: row;
+  height: 350px;
+  background: #f4f4f4;
+  margin-top: 50px;
+}
+.sobre,
+.contatos,
+.blog {
+  display: flex;
+  justify-content: center;
+  align-items: left;
+  flex-direction: column;
+  width: 33%;
+  height: 100%;
+  gap: 20px;
+  margin-left: 100px;
+}
+.cnpj,
+.politicaPriv {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.phone,
+.email,
+.funcionamento {
+  display: flex;
+  flex-direction: row;
+  font-size: 20px;
+  gap: 10px;
+}
+.contatos p {
+  color: #a52a2a;
+  font-size: 20px;
+}
+.phone p,
+.email p,
+.funcionamento p,
+i {
+  color: #808080;
+  font-size: 18px;
+}
+.sobre {
+  color: #a52a2a;
+  gap: 30px;
+}
+.sobre .galvao{
+  font-weight: bold;
+}
+.blog a{
+  font-size: 20px;
+  color: #31404A;
+  text-decoration: none;
+}
+/* Fim footer */
